@@ -253,8 +253,6 @@
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
   background-color: #1f1f1f;
   min-height: 350px;
   padding: 60px 0 40px 0;
@@ -262,7 +260,6 @@
 }
 
 .footer__columns {
-  flex-grow: 1;
   display: flex;
   margin: auto;
   width: 90%;

@@ -270,6 +270,22 @@
   justify-content: space-between;
 }
 
+/*Как вариант, можно еще использовать такой стиль (съэкономит 1 строку)
+.footer {
+  display: flex;
+  background-color: #1f1f1f;
+  min-height: 350px;
+  padding: 60px 0 40px 0;
+  box-sizing: border-box;
+}
+.footer__columns {
+  display: flex;
+  align-self: stretch;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-between;
+}*/
+
 .footer__column {
   display: flex;
   flex-direction: column;

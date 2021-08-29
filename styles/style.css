@@ -250,9 +250,12 @@
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
+  background-size: cover;
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
   background-color: #1f1f1f;
   min-height: 350px;
   padding: 60px 0 40px 0;
@@ -261,6 +264,7 @@
 
 .footer__columns {
   display: flex;
+  flex: 1;
   margin: auto;
   width: 90%;
   justify-content: space-between;
